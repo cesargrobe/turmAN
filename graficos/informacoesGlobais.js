@@ -3,7 +3,7 @@ const url=`https://raw.githubusercontent.com/guilhermeonrails/api/main/dados-glo
 async function visualizarInformacoesGlobais() {
 
     const resposta = await fetch(url);
-    const dados = resposta.json();
+    const dados = await resposta.json();
     
     console.log(dados);
 
