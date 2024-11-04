@@ -6,7 +6,7 @@ async function visualizarInformacoesGlobais() {
     const dados = await resposta.json();
     
     //console.log(dados);
-    let total_pessoas_mundo = dados.total_pessoas_mundo/1e9
+    let total_pessoas_mundo = pardeInt(dados.total_pessoas_mundo/1e9)
 
     const paragrafo = document.createElement("p");
     paragrafo.classList.add('graficos-container__texto');
