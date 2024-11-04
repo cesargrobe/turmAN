@@ -7,7 +7,7 @@ async function visualizarInformacoesGlobais() {
     
     //console.log(dados);
     let total_pessoas_mundo = parseFloat(dados.total_pessoas_mundo/1e9)
-    let tempo_medio_deslocamento_para_trabalho = dados.tempo_medio_deslocamento_para_trabalho/60
+    let tempo_medio_deslocamento_para_trabalho = dados.tempo_medio_deslocamento_para_trabalho*60
 
     const paragrafo = document.createElement("p");
     paragrafo.classList.add('graficos-container__texto');
