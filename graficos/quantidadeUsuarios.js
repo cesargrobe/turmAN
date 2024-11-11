@@ -9,8 +9,8 @@ async function quantidadeUsuarios() {
   
   const data = [
     {
-        x: quantidadeUsuarios,
-        y: nomeDasRedes,
+      x: nomeDasRedes,
+      y: quantidadeUsuarios,
       type: 'bar'
     }
   ]
