@@ -24,7 +24,7 @@ async function quantidadeUsuarios() {
         title: {
             text: "Concentração de Trabalhadores",
             font: {
-                color: getCSS('--primary-color'),
+                color: getCSS('--secundary-color'),
                 family: getCSS('--font'),
                 size: 30,
             }
@@ -34,7 +34,7 @@ async function quantidadeUsuarios() {
             title: {
                 text: "Área de trabalho",
                 font: {
-                    color: getCSS('--primary-color')
+                    color: getCSS('--secundary-color')
                 }
             }
         },
