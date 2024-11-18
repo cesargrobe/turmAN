@@ -34,7 +34,8 @@ async function quantidadeUsuarios() {
             title: {
                 text: "Área de trabalho",
                 font: {
-                    color: getCSS('--secundary-color')
+                    color: getCSS('--secundary-color'),
+                    size: 18,
                 }
             }
         },
