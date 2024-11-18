@@ -1,4 +1,4 @@
-
+@import {getCSS} from "./common.js"
 
 async function quantidadeUsuarios() {
     const url = 'https://raw.githubusercontent.com/silviosnjr/CienciaDeDados-CriandoGraficosDinamicosComJavaScript/refs/heads/Aula01/trabalho/trabalho-tipos-de-ocupacao.json'
@@ -12,6 +12,9 @@ async function quantidadeUsuarios() {
             x: nomeDasRedes,
             y: quantidadeUsuarios,
             type: 'bar'
+            marker: {
+                color: getCSS('--primary-color')
+            }
         }
     ]
 
@@ -23,3 +26,4 @@ async function quantidadeUsuarios() {
 }
 
 quantidadeUsuarios()
+
