@@ -46,7 +46,8 @@ async function quantidadeUsuarios() {
                 font: {
                     color: getCSS('--secundary-color')
                 }
-            }
+            },
+            standof: 20,
         }
         
     }
