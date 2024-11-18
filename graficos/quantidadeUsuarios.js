@@ -22,7 +22,7 @@ async function quantidadeUsuarios() {
         plot_bgcolor: getCSS('--bg-color'),
         paper_bgcolor: getCSS('--bg-color'),
         title: {
-            text: "Titulo",
+            text: "Concentração de Trabalhadores",
             font: {
                 color: getCSS('--primary-color'),
                 family: getCSS('--font'),
@@ -32,16 +32,16 @@ async function quantidadeUsuarios() {
         xaxis: {
             tickfont: tickConfig,
             title: {
-                text: "Nome 1",
+                text: "Área de trabalho",
                 font: {
-                    color: getCSS('--secundary-color')
+                    color: getCSS('--primary-color')
                 }
             }
         },
         yaxis: {
             tickfont: tickConfig,
             title: {
-                text: "Nome 1",
+                text: "Bilhões de pessoas",
                 font: {
                     color: getCSS('--secundary-color')
                 }
